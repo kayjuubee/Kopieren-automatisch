@@ -1,0 +1,18 @@
+# Praxistest am Windows-Booth-PC
+
+Diese Schritte müssen auf der tatsächlichen Hardware ausgeführt werden. Ein Linux-Test oder EXE-Selbsttest ersetzt sie nicht. Ergebnis und Datum können hier je Schritt ergänzt werden.
+
+1. **EXE bauen:** `Bauen.bat` ausführen oder den GitHub-Workflow „Windows EXE“ starten. Tests und EXE-Selbsttest müssen erfolgreich sein. Der Selbsttest schreibt nur in ein temporäres Verzeichnis und verändert keine USB-Sticks.
+2. **Testveranstaltung:** Einen eigenen Testordner mit `Originals`, `Prints/thumbs` und `Videos` verwenden. Einige beliebige Testbilder hineinkopieren und zehn Sekunden warten. Programmstart muss die Veranstaltung unausgewählt lassen.
+3. **Erste Kopie:** Veranstaltung und leeren Test-Stick auswählen, Inhaltsprüfung aktivieren und „Jetzt alle kopieren“ drücken. Nur Originals und Prints dürfen erscheinen, thumbs und Videos erst nach expliziter Auswahl. Vorhandene Dateien dürfen nicht überschrieben werden.
+4. **Booth unter Last:** dslrBooth bzw. lumaBooth wie im echten Betrieb im Vordergrund starten. Während Kopieren und Inhaltsprüfung Aufnahmen, Vorschau und Druck ausprobieren. Bei Stocken das Kopiertempo reduzieren. Es dürfen keine Popups oder Fokuswechsel durch den Kopierer auftreten.
+5. **Voller Test-Stick:** Einen bereits nahezu vollen Test-Stick verwenden. Passt die nächste Datei nicht, muss die Kopie anhalten und der Hinweis ausschließlich im Programmfenster stehen. Keinen produktiven Datenträger für diesen Test füllen. Nach fünf gleichen Fehlern und Auswahl eines anderen Sticks muss „Mit diesem Stick fortsetzen“ die gesamte freigegebene Veranstaltung erneut kopieren. Derselbe Stick muss abgewiesen werden; gleichnamige Zieldateien im Veranstaltungsordner des Ersatz-Sticks werden in diesem Wiederherstellungsmodus frisch ersetzt.
+6. **Entfernen:** „Stick sicher entfernen“ während einer Kopie drücken. Die laufende Datei muss sauber abbrechen, danach Windows den Stick freigeben. Bei einem offenen Dokument auf dem Stick darf nichts erzwungen werden; ein Fehler bleibt still und die Automatik pausiert. Nach Schließen des Dokuments erneut versuchen. Stick erst nach Erfolg oder erfolgreicher Windows-Freigabe abziehen.
+7. **Übersicht:** Anzahl und Größen der kopierten Testdateien auf Stick 1 und Stick 2 mit der Veranstaltungsübersicht vergleichen. Geprüfte Dateien müssen als geprüft zählen. Die Übersicht ist eine lokale Historie und prüft abgezogene Sticks nicht erneut.
+8. **Tray und Fehler:** Hauptfenster im Tray verbergen, Test-Stick entfernen und nächsten Durchlauf abwarten. Es darf kein Fenster aufgehen. Öffnen ausschließlich über das Tray-Menü. Status und Protokoll müssen den Fehler zeigen.
+9. **Countdown:** Intervall ändern, übernehmen, Pause und Fortsetzen prüfen. Sofortkopie muss unabhängig vom nächsten Intervall starten, aber keinen zweiten parallelen Kopiervorgang erzeugen.
+10. **Booth-Autostart:** Option aktivieren und beide Programme beenden. Booth-Software starten: Kopierer muss einmalig ohne Fokusübernahme im Tray erscheinen. Veranstaltung bleibt unausgewählt. Anschließend Windows-Neuanmeldung prüfen. Autostart wieder deaktivieren, wenn er nicht gewünscht ist.
+
+11. **Volle Leistung und Restanzeige:** Zunächst schonend kopieren und Restmenge sowie Restzeitschätzung prüfen. Danach bei ruhender Booth „Volle Kopierleistung“ aktivieren und einen neuen Durchlauf starten. Es darf keine künstliche Drosselung geben. Anschließend Modus deaktivieren und erneut starten; der schonende Modus muss wieder gelten. Nach Programmneustart muss volle Leistung ausgeschaltet sein.
+
+Bisheriger Hardwaretest: **nicht ausgeführt**.
